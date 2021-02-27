@@ -13,7 +13,6 @@ app.use(express.json());
 
 //emulate to run on local machine
 
-
 //api routes
 app.get('/', (request, response) => {
     response.status(200).send('hello world')
